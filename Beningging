@@ -1,0 +1,5 @@
+git init
+git add Beningging.me
+git commit -m "Commiting here"
+git brance -M main
+get push -u origin main

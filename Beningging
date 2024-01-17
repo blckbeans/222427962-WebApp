@@ -1,5 +1,18 @@
+Intro to html coding
+
 git init
-git add Beningging.me
+git add Beningging.me or dit add .
 git commit -m "Commiting here"
 git brance -M main
 get push -u origin main
+git rm
+git reset head
+git chekout
+
+Link code : <a href="https://" target="_blank" rel="noopnener noreferrrer"> Home </a>
+Shortcut for the framework "!" enter
+
+ctrl K or ctrl O = New folder
+alt L or alt C = Live Server
+
+To put an image into code: <img src= "link or local path of image">

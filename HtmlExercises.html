@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Exercises</title>
+    <style>
+        Gender {
+            display: block;
+            margin-bottom: 5px;
+            margin-right: 10px;
+        }
+    </style>
 </head>
+
 <body>
     <section>
         <style>
-            h2{text-align: center;}
+            h2 {
+                text-align: center;
+                font-size: 42px;
+            }
         </style>
         <h2>HTML Exercises</h2>
 
     </section>
-    
+
     <Nav>
         <ul>
             <li> <a href="#">Home</a></li>
@@ -24,14 +36,125 @@
     <Section>
         <STYle>
             img {
-                display:block;
+                display: block;
                 margin-left: auto;
                 margin-right: auto;
-
             }
         </STYle>
-        <img src="http://bit.ly/3HoMLnA" alt="Here's an image I randomly imported" class="center">
+        <img src="http://bit.ly/3HoMLnA">
+        <p>HELLO! Everyone, Have a good day!</p>
+        <style>
+            p {
+                text-align: center;
+            }
+        </style>
     </Section>
-    
+    <form>
+        <label for="Name"> Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="password"> Password:</label>
+        <input type="Password" id="password" name="password" required>
+
+        <section>
+
+            <label>Gender:</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="Female">
+            <label for="female">Female </label>
+
+            <section>
+
+                <section>
+                    <label>
+
+                        <input type="checkbox" id="terms" name="terms" required>
+                        Accept Terms and Conditions
+                    </label>
+                    <input type="submit" value="Submit">
+                </section>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th> Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Blair</td>
+                <td>19</td>
+                <td>Baguio City</td>
+            </tr>
+            <tr>
+                <td>Kirei</td>
+                <td>30</td>
+                <td>La Union</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <section>
+        <header>
+            <style>
+                h3 {
+                    font-size: 20px;
+                    text-align: left;
+                }
+            </style>
+            <h3>Semantic HTML</h1>
+        </header>
+    </section>
+    <article>
+        <Section>
+            So I have now started to actually appreciate HTML. It is fun and not that hard as compared to other
+            softwares.
+        </Section>
+    </article>
+    <footer>
+        <p>&copy; 2024 BEEP Semantics</p>
+    </footer>
+
+    <nav>
+        <ul>
+            <li><a href="https://blogs.mtdv.me/watch?v=gHfdOoeBxC">Login</a></li>
+            <li><a href="https://blogs.mtdv.me/watch?v=gHfdOoeBxC">Subscribe</a></li>
+            <li><a href="https://blogs.mtdv.me/watch?v=gHfdOoeBxC">Cookies</a></li>
+        </ul>
+    </nav>
+    <section>
+        <header>
+            <style>
+                h1 {
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 42px;
+                    text-align: center;
+                }
+            </style>
+            <h1>More About Us</h1>
+        </header>
+    </section>
+
+
+    <figure>
+        <img src="https://bit.ly/Navi-gation" width="400" height="200">
+        <p>We animate novels into your satisfaction</p>
+    </figure>
+
+    <audio controls>
+        <source src="C:\Users\Blair\Downloads\Politicians.mp3" type="audio/mp3">
+        Your browser does not support the audio file
+    </audio>
+
+    <video width="300" height="500" controls>
+        <source src="C:\Users\Blair\Downloads\Haikyuu.mp4" type="video/mp4">
+        Your browser does not support audio file
+    </video>
+
 </body>
+
 </html>

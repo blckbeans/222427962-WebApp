@@ -11,20 +11,41 @@
             margin-bottom: 5px;
             margin-right: 10px;
         }
+
+        h3 {
+            font-size: 20px;
+            text-align: left;
+
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 42px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 42px;
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
-    <section>
-        <style>
-            h2 {
-                text-align: center;
-                font-size: 42px;
-            }
-        </style>
+    <div>
         <h2>HTML Exercises</h2>
 
-    </section>
+    </div>
 
     <Nav>
         <ul>
@@ -33,22 +54,11 @@
             <li> <a href="#">Contact</a></li>
         </ul>
     </Nav>
-    <Section>
-        <STYle>
-            img {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-        </STYle>
-        <img src="http://bit.ly/3HoMLnA">
+    <div>
+        <img src="http://bit.ly/3HoMLnA" alt="A cartoon character as a greeter to put a smile on everyones day">
         <p>HELLO! Everyone, Have a good day!</p>
-        <style>
-            p {
-                text-align: center;
-            }
-        </style>
-    </Section>
+
+    </div>
 
     <form>
         <label for="Name"> Name:</label>
@@ -57,7 +67,7 @@
         <label for="password"> Password:</label>
         <input type="Password" id="password" name="password" required>
 
-        <section>
+        <div>
 
             <label>Gender:</label>
             <input type="radio" id="Male" name="Gender" value="Male">
@@ -65,23 +75,17 @@
             <input type="radio" id="female" name="Gender" value="Female">
             <label for="female">Female </label>
 
-            <section>
-
-                <section>
-                    <label>
-
-                        <input type="checkbox" id="terms" name="terms" required>
-                        Accept Terms and Conditions
-                    </label>
-                    <input type="submit" value="Submit">
-                </section>
-            </section>        
-        </section>
+            <div>
+                <label>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    Accept Terms and Conditions
+                </label>
+                <input type="submit" value="Submit">
+            </div>
+        </div>
     </form>
     <table bgcolor="black">
-        <p>
         <h3>Table</h3>
-        </p>
         <thead>
             <tr bgcolor="gray" align="center">
                 <th>Name</th>
@@ -95,7 +99,7 @@
                 <td>19</td>
                 <td>Baguio City</td>
             </tr>
-            <tr bgcolor="white" align="">
+            <tr bgcolor="white" align="center">
                 <td>Kirei</td>
                 <td>30</td>
                 <td>La Union</td>
@@ -106,20 +110,14 @@
 
     <section>
         <header>
-            <style>
-                h3 {
-                    font-size: 20px;
-                    text-align: left;
-                }
-            </style>
             <h3>Semantic HTML</h1>
         </header>
     </section>
     <article>
-        <Section>
+        <div>
             So I have now started to actually appreciate HTML. It is fun and not that hard as compared to other
             softwares.
-        </Section>
+        </div>
     </article>
     <footer>
         <p>&copy; 2024 BEEP Semantics</p>
@@ -132,18 +130,11 @@
             <li><a href="https://blogs.mtdv.me/watch?v=gHfdOoeBxC">Cookies</a></li>
         </ul>
     </nav>
-    <section>
+    <div>
         <header>
-            <style>
-                h1 {
-                    font-family: 'Courier New', Courier, monospace;
-                    font-size: 42px;
-                    text-align: center;
-                }
-            </style>
             <h1>More About Us</h1>
         </header>
-    </section>
+    </div>
 
 
     <figure>
@@ -152,12 +143,12 @@
     </figure>
 
     <audio controls>
-        <source src="C:\Users\Blair\Downloads\Politicians.mp3" type="audio/mp3">
+        <source src="C:\Users\Blair\Downloads\Politicians.mp3" type="audio/mp3" alt="Donald Trump About Politicians">
         Your browser does not support the audio file
     </audio>
 
     <video width="300" height="500" controls>
-        <source src="C:\Users\Blair\Downloads\Haikyuu.mp4" type="video/mp4">
+        <source src="C:\Users\Blair\Downloads\Haikyuu.mp4" type="video/mp4" alt="Premium TikTok">
         Your browser does not support audio file
     </video>
 

@@ -11,33 +11,6 @@
             margin-bottom: 5px;
             margin-right: 10px;
         }
-
-        h3 {
-            font-size: 20px;
-            text-align: left;
-
-        }
-
-        h2 {
-            text-align: center;
-            font-size: 42px;
-        }
-
-        p {
-            text-align: center;
-        }
-
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        h1 {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 42px;
-            text-align: center;
-        }
     </style>
 </head>
 
@@ -45,7 +18,7 @@
     <div>
         <h2>HTML Exercises</h2>
 
-    </div>
+    </section>
 
     <Nav>
         <ul>
@@ -54,14 +27,25 @@
             <li> <a href="#">Contact</a></li>
         </ul>
     </Nav>
-    <div>
-        <img src="http://bit.ly/3HoMLnA" alt="A cartoon character as a greeter to put a smile on everyones day">
+    <Section>
+        <STYle>
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </STYle>
+        <img src="http://bit.ly/3HoMLnA">
         <p>HELLO! Everyone, Have a good day!</p>
-
-    </div>
+        <style>
+            p {
+                text-align: center;
+            }
+        </style>
+    </Section>
 
     <form>
-        <label for="Name"> Name:</label>
+        <label for="name"> Name:</label>
         <input type="text" id="name" name="name" required>
 
         <label for="password"> Password:</label>
@@ -71,35 +55,41 @@
 
             <label>Gender:</label>
             <input type="radio" id="Male" name="Gender" value="Male">
-            <label for="male">Male</label>
+            <label for="Male">Male</label>
             <input type="radio" id="female" name="Gender" value="Female">
             <label for="female">Female </label>
 
-            <div>
-                <label>
-                    <input type="checkbox" id="terms" name="terms" required>
-                    Accept Terms and Conditions
-                </label>
-                <input type="submit" value="Submit">
-            </div>
-        </div>
+            <section>
+
+                <section>
+                    <label>
+
+                        <input type="checkbox" id="terms" name="terms" required>
+                        Accept Terms and Conditions
+                    </label>
+                    <input type="submit" value="Submit">
+                </section>
+            </section>        
+        </section>
     </form>
     <table bgcolor="black">
+        <p>
         <h3>Table</h3>
+        </p>
         <thead>
-            <tr bgcolor="gray" align="center">
+            <tr>
                 <th>Name</th>
                 <th> Age</th>
                 <th>City</th>
             </tr>
         </thead>
         <tbody>
-            <tr bgcolor="white" align="center">
+            <tr>
                 <td>Blair</td>
                 <td>19</td>
                 <td>Baguio City</td>
             </tr>
-            <tr bgcolor="white" align="center">
+            <tr bgcolor="white" align="">
                 <td>Kirei</td>
                 <td>30</td>
                 <td>La Union</td>
@@ -110,14 +100,20 @@
 
     <section>
         <header>
+            <style>
+                h3 {
+                    font-size: 20px;
+                    text-align: left;
+                }
+            </style>
             <h3>Semantic HTML</h1>
         </header>
     </section>
     <article>
-        <div>
+        <Section>
             So I have now started to actually appreciate HTML. It is fun and not that hard as compared to other
             softwares.
-        </div>
+        </Section>
     </article>
     <footer>
         <p>&copy; 2024 BEEP Semantics</p>
@@ -138,17 +134,19 @@
 
 
     <figure>
-        <img src="https://bit.ly/Navi-gation" width="400" height="200">
-        <p>We animate novels into your satisfaction</p>
+        <div>
+            <img src="https://wallpapercave.com/wp/wp11646838.jpg" width="400" height="600" alt="Your browser does not support this image format.">
+            <p>We animate novels into your satisfaction</p>
+        </div>
     </figure>
 
     <audio controls>
-        <source src="C:\Users\Blair\Downloads\Politicians.mp3" type="audio/mp3" alt="Donald Trump About Politicians">
+        <source src="C:\Users\Blair\Downloads\Politicians.mp3" type="audio/mp3">
         Your browser does not support the audio file
     </audio>
 
     <video width="300" height="500" controls>
-        <source src="C:\Users\Blair\Downloads\Haikyuu.mp4" type="video/mp4" alt="Premium TikTok">
+        <source src="C:\Users\Blair\Downloads\Haikyuu.mp4" type="video/mp4">
         Your browser does not support audio file
     </video>
 

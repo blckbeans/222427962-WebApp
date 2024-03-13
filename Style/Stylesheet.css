@@ -5,7 +5,6 @@ H1{
 }
 body{
     background-color: bisque;
-    border-style: groove;
 }
 li{
     list-style-image: url(https://www2.atmos.umd.edu/~chepurin/STUFF/bullets/sqpurple.gif);
@@ -28,4 +27,7 @@ section{
     margin: 10px;
     border-radius: 5px;
     box-shadow: rgb(42, 214, 214);
+}
+footer{
+    text-align: center;
 }

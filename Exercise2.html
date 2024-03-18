@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+    <style type="text/css">
+        .background {
+            background-image: linear-gradient(to bottom, white,rgb(104, 82, 82));
+            width: 300px;
+            height: 373px;
+            position: relative;
+        }
+        .head {
+            background: white;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top: 60px;
+            left: 90px;
+        }
+        .eyeball {
+            background: black;
+            border-color: transparent;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+
+        }
+        .pupil {
+            color: white;
+            position: relative;
+            font-size: xx-large;
+            left: 4px;
+            bottom: 7.5px;
+        }
+        .beak {
+            position: absolute;
+            top: 50px;
+            left: 70px;
+            transform: rotate(45deg);
+            color: black;
+            font-size: 20px;
+        }
+        .body {
+            background: black;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: 140px;
+            left: 50px;
+            border-radius: 50%;
+        }
+        .wing {
+            background: white;
+            width: 80px;
+            height: 60px;
+            position: absolute;
+            top: 40px;
+            left: -20px;
+            border-radius: 50%;
+        }
+        .drumsticks{
+            position: absolute;
+            top: 240px;
+            left: 90px;
+            margin-top: 40px;
+            font-size: 40px;
+        }
+        .drumstick {
+            margin-left: 14px;
+            display: inline-block;
+        }
+        .drumstick-right {
+            display: inline-block;
+        }
+        .air{
+            background: skyblue;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="canva background">
+        <div class="air background"></div>
+        <div class="head">
+            <div class="eyeball">
+                <span class="pupil">&middot;</span>
+            </div>
+            <div class="beak">
+                <strong>&gt;</strong>
+            </div>
+        </div>
+        <div class="body">
+            <div class="wing">
+                <strong></strong>
+            </div>
+        </div>
+        <div class="drumsticks">
+            <div class="drumstick">|
+        <br class="br">/|
+            </div>
+            <div class="drumstick-right">|
+        <br class="br">/|
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -6,11 +6,32 @@ H1{
 }
 body{
     background-color: bisque;
-    border-style: groove;
     line-height: 1.5;
 }
 li{
     list-style-image: url(https://www2.atmos.umd.edu/~chepurin/STUFF/bullets/sqpurple.gif);
+}
+
+Header{
+    background-color: rgb(26, 36, 45);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+section{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(42, 214, 214);
+}
+footer{
+    text-align: center;
 }
 p{
     font-size: 24px;

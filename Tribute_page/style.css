@@ -57,7 +57,8 @@ html {
   img {
     max-width: 100%;
     display: block;
-    height: auto;
+    height: 350px;
+    width: 400px;
     margin: 0 auto;
   }
   

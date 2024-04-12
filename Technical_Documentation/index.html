@@ -17,23 +17,26 @@
             </li>
             
             <li>
-                <a class="nav-link" href="#WHAT">WHAT</a>
+                <a class="nav-link" href="#HTML_ELEMENTS">HTML Elements</a>
                 
             </li>
             <li>
-                <a class="nav-link" href="#WHAT">WHAT</a>
+                <a class="nav-link" href="#GITCOMMAND">GIT Commands</a>
                 
             </li>
             <li>
-                <a class="nav-link" href="#WHAT">WHAT</a>
+                <a class="nav-link" href="#CSS">Cascading Style Sheet</a>
                 
             </li>
             <li>
-                <a class="nav-link" href="#WHAT">WHAT</a>
+                <a class="nav-link" href="#Flexbox">Flexible Box Layout</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#WSL">Windows Subsystem for Linux</a>
                 
             </li>
             <li>
-                <a class="nav-link" href="#WHAT">WHAT</a>
+                <a class="nav-link" href="#APACHE">APACHE</a>
                 
             </li>
         </ul>
@@ -58,9 +61,112 @@
                 <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
                 <p>Git is easy to learn and has a tiny footprint with lightning fast performance. It is a version control system that helps you keep track of changes made to your files and collaborate with others on projects</p>
             </article>
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*mtsk3fQ_BRemFidhkel3dA.png" alt="GIT and GITHUB">
         </section>
-
-
+        
+        <Section class="main-selection" id="HTML_ELEMENTS">
+            <header>HTML Elements</header> 
+            <p>HTML elements or Hypertext Markup Langauge elements are the building block of WebPages. Everything you see on the internet are creating using html commands. Each HTML elements has a starting tag, content of the page, and a closing tag. Here are some of the most commonly used HTML elements</p>
+            <code>
+                &lt;!DOCTYPE&gt;
+                &lt;html&gt;
+                &lt;head&gt;
+                &lt;title&gt;Title of the Document&lt;/title&gt;
+                &lt;head&gt;
+                &lt;body&gt;
+                &lt;h1 to h6&gt;
+                &lt;p&gt;
+                &lt;br and hr&gt;
+            </code>
+        </Section>
+        <section class="main-selection" id="GITCOMMAND">
+            <header>GIT Commands</header>
+            <p>Here are some common GIT Commands:</p>
+            <code>
+                > git init: Initialize a new Git repository in the current directory
+                > git clone: Create a copy of an existing git repository
+                > git add : Adds the changes working directory to the staging area to be commited
+                > git commit: Record the changes done to the repository
+                > git push: Sends the local commit to the remote repository
+                > git pull: Fetch the changes done to the remote repository and merge them to the current branch
+                > git log: Displays the history of commits in the repository
+            </code>
+        </section>
+        <Section class="main-selection" id="CSS">
+            <header>CSS</header>
+            <p>CSS is a stylesheet used to glomarize the presentation of a HTML. CSS is simpky what makes a webpage look the way it does, hence it is called a 'stylesheet'.</p>
+            <p>Here is what stylesheet style may look like:</p>
+            <code>
+               body{
+                font-family: 'Arial, sans';
+                background-color: 00000;
+               }
+               h1{
+                color:#fffff:
+               }
+               footer{
+                background-color: #g4g4g4;
+                color: #fffff;
+                text-align: center:
+                padding: 0px;
+               }
+            </code>
+        </Section>
+        <section class="main-selection" id="Flexbox">
+            <Header>Flexbox| CSS-tricks</Header>
+            <p>Flexbox is a CSS layout model that allows people to design complex and responsive layouts with ease. It provides a more efficient way to align and dostrobure space among items in a container even when the size is unknown.</p>
+            <p>Flexbox Examples:</p>
+            <code>
+                .parent{
+                    display: flex;
+                    height: 300px;
+                }
+                .child {
+                    width: 100px;
+                    height 100px;
+                    margin: auto;
+                }
+                .flex-container{
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-around;
+                }
+                .wrapper{
+                    display: flex;
+                    flex-flow: row wrap;
+                }
+            </code>
+        </section>
+        <Section class="main-selection" id="WSL">
+            <header>WSL</header>
+            <p>WSL is a compatibility layer for running Linux binary executables on Windows. The compatibility layer allows Linux binary executables to run natively on a Windows Operating System. </p>
+            <p>WSL Commands</p>
+            <code>
+                Command
+                    > wsl --install
+                    > wsl
+                    > logout/exit
+                    > clear
+                    > wsl --shutdown
+            </code>
+        </Section>
+        <Section class="main-selection" id="APACHE">
+            <Header>APACHE</Header>
+            <p>Apache is a open-source web server software widely used on Linux Systems, making it a crucial component of many linux-based web hosting environements.</p>
+            <p>Getting started with apache</p>
+            <code>
+                After installing wsl type wsl
+                and then type:
+                > sudo apt update
+                > sudo apt upgrade
+                > sudo apt-get install apache 2
+                > sudo service apache2 start
+            </code>
+        </Section>
+        <footer>
+            <hr>
+            <p>&copy; 12 April, Documentation Page. All rights reserved</p>
+        </footer>
     </main>
 </body>
 </html>

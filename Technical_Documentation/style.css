@@ -69,7 +69,7 @@ code{
     word-break: normal;
     word-wrap: normal;
     line-height: 2;
-    background-color: blue;
+    background-color: whitesmoke;
     padding: 15px;
     margin: 10px;
     border-radius: 10px;
@@ -114,4 +114,19 @@ h1{
     font-size: large;
     color: black;
     font-weight: lighter;
+}
+img{
+    height: 200px;
+    width: 400px;
+    align-self: center;
+}
+footer{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+    bottom: 500px;
 }

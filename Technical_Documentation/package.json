@@ -1,0 +1,19 @@
+{
+  "name": "technical_documentation",
+  "version": "1.0.0",
+  "description": "A technical documentation page for What ive learned this sem",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blckbeans/222427962-WebApp.git"
+  },
+  "author": "Blair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blckbeans/222427962-WebApp/issues"
+  },
+  "homepage": "https://github.com/blckbeans/222427962-WebApp#readme"
+}

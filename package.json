@@ -1,0 +1,11 @@
+{
+  "name": "222427962-webapp",
+  "version": "1.0.0",
+  "description": "- 👋 Hi, I’m Blair\r - 👀 I’m interested in reading e-books\r - 🌱 I’m currently learning how to github\r - 💞️ I’m looking to collaborate on something in the far future\r - 📫 How to reach me is through my email: Abansanblair@gmail.com\r - 😄 Pronouns: they/them\r - ⚡ Fun fact: Poops are sometimes used for luxury delicacies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

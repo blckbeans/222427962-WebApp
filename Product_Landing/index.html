@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Landing</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-    crossorigin="anonymous">
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 </head>
+
 <body>
     <div id="page-wrapper">
         <header id="header">
             <div class="logo">
-                <img src="Logo.png" alt="Product Landing Logo">
+                <img id="header-img" src="Logo.png" alt="Local Product" />
             </div>
 
             <nav id="nav-bar">
                 <ul>
                     <li><a class="nav-link" href="#features">Features</a></li>
-                    <li> <a class="nav-link" href="#how-it-wotks"> How it wprks</a></li>
-                    <li><a class="nav-link" href="#pricing"> Pricing</a></li>
+                    <li><a class="nav-link" href="#how-it-works">Product Sample</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
                 </ul>
             </nav>
         </header>
@@ -28,108 +26,99 @@
         <div class="container"></div>
 
         <section id="hero">
-            <h2>Handcrafted, Home-made masterpieces of Baguio Locals</h2>
+            <h2>Handcrafted, home-made masterpieces</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input
-                name="email"
-                id="email" 
-                type="text"
-                placeholder="Enter your email address"
-                required>
-                <input type="submit" value="Get Started" id="submit" class="btn">
+                <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+                <input id="submit" type="submit" value="Get Started" class="btn" />
             </form>
         </section>
 
         <div class="container">
             <section id="features">
-              <div class="grid">
-                <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
-                <div class="desc">
-                  <h2>Premium Materials</h2>
-                  <p>
-                    Our trombones use the shiniest brass which is sourced locally.
-                    This will increase the longevity of your purchase.
-                  </p>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+                    <div class="desc">
+                        <h2>Premium Quality</h2>
+                        <p>
+                            Our products are crafted with premium materials sourced locally, ensuring the standards of quality. From rich flavors to fresh ingredients, we prioritize excellence in every aspect
+                        </p>
+                    </div>
                 </div>
-              </div>
-              <div class="grid">
-                <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
-                <div class="desc">
-                  <h2>Fast Shipping</h2>
-                  <p>
-                    We make sure you recieve your trombone as soon as we have
-                    finished making it. We also provide free returns if you are not
-                    satisfied.
-                  </p>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+                    <div class="desc">
+                        <h2>Fast Delivery</h2>
+                        <p>
+                            We pride ourselve on fast and reliable shipping, ensuring that your order arrives promptly and in perfect condition. With our efficient delivery service, satistion is guaranteed.
+                        </p>
+                    </div>
                 </div>
-              </div>
-              <div class="grid">
-                <div class="icon">
-                  <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Quality Assurance</h2>
+                        <p>
+                            Our commitment to quality assurance means that every product undergoes rigorous testing to ensure excellence. From freshness to taste, we guarantee a premium experience with every purchance.
+                        </p>
+                    </div>
                 </div>
-                <div class="desc">
-                  <h2>Quality Assurance</h2>
-                  <p>
-                    For every purchase you make, we will ensure there are no damages
-                    or faults and we will check and test the pitch of your
-                    instrument.
-                  </p>
-                </div>
-              </div>
             </section>
             <section id="how-it-works">
-              <iframe
-                id="video"
-                height="315"
-                src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
-                frameborder="0"
-                allowfullscreen
-              ></iframe>
+                <iframe id="video" height="315"
+                    src="Product Video.mp4"
+                    frameborder="0" allowfullscreen>
+                </iframe>
             </section>
             <section id="pricing">
-              <div class="product" id="tenor">
-                <div class="level">Tenor Trombone</div>
-                <h2>$600</h2>
-                <ol>
-                  <li>Lorem ipsum.</li>
-                  <li>Lorem ipsum.</li>
-                  <li>Lorem ipsum dolor.</li>
-                  <li>Lorem ipsum.</li>
-                </ol>
-                <button class="btn">Select</button>
-              </div>
-              <div class="product" id="bass">
-                <div class="level">Bass Trombone</div>
-                <h2>$900</h2>
-                <ol>
-                  <li>Lorem ipsum.</li>
-                  <li>Lorem ipsum.</li>
-                  <li>Lorem ipsum dolor.</li>
-                  <li>Lorem ipsum.</li>
-                </ol>
-                <button class="btn">Select</button>
-              </div>
-              <div class="product" id="valve">
-                <div class="level">Valve Trombone</div>
-                <h2>$1200</h2>
-                <ol>
-                  <li>Plays similar to a Trumpet</li>
-                  <li>Great for Jazz Bands</li>
-                  <li>Lorem ipsum dolor.</li>
-                  <li>Lorem ipsum.</li>
-                </ol>
-                <button class="btn">Select</button>
-              </div>
+                <div class="product" id="tenor">
+                    <div class="level">Sundot Kulangot</div>
+                    <img src="Sundot_kulangot.jpg" alt="sundot kulangot" class="product-image">
+                    <h2>PHP130</h2>
+                    <ol>
+                        <li>Unique and delightful</li>
+                        <li>Experience the taste of a traditional Filipino treat</li>
+                        <li>Sweet caramelized goodness</li>
+                        <li>Memorable taste experience</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="bass">
+                    <div class="level">Cheesebars</div>
+                    <img src="cheesebars.jpg" alt="Cheesebrs" class="product-image">
+                    <h2>PHP90</h2>
+                    <ol>
+                        <li>Rich, creamy indulgence</li>
+                        <li>Perfect snack or accompaniment</li>
+                        <li>Irresistible cheesy goodness</li>
+                        <li>Handcrafted with care</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="valve">
+                    <div class="level">Fresh Strawberries</div>
+                    <img src="freshstraw.jpg" alt="Fresh Strawberries" class="product-image">
+                    <h2>PHP150</h2>
+                    <ol>
+                        <li>Bursting with vibrant flavor</li>
+                        <li>Adds zest to any dish</li>
+                        <li>Melts in your mouth</li>
+                        <li>Straight from the Cordillera Mountains</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
             </section>
             <footer>
-              <ul>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-              <span>Copyright 2016, Original Trombones</span>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span>Copyright 2016, Local Product</span>
             </footer>
         </div>
     </div>
 </body>
+
 </html>

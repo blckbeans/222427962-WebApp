@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/biography_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEFINITION"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+    <TextView
+        android:id="@+id/definition_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is an Android Application?"
+        android:textSize="20sp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/definition_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      An Android application is a program designed to run on Android devices, such as smartphones. These apps include games, social media apps, and streaming apps."
+        android:textSize="16sp" />
+</LinearLayout>

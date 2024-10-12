@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/biography_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIOGRAPHY"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="228dp"
+        android:layout_height="180dp"
+        android:contentDescription="Profile Picture"
+        android:src="@drawable/picturee"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age: 20"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="30dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="293dp"
+        android:layout_height="313dp"
+        android:paddingTop="8dp"
+        android:text="      Hello there! I am currently a 3rd year student majoring in Information Technology at University of the Cordilleras. I was originally from Mountain Province but I've been staying here in Baguio for around 3 yrs now. My talents have been very shy and doesn't wanna come out. As a decent human being, I shall respect it. "
+        android:textSize="16sp"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/biography_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INTEREST"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/interest_description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      My interest in IT began not until I became a second year student.I did take some interest in these areas:"
+        android:textSize="20sp"
+        android:paddingBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/interest_description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="Artificial intelligence includes various methods and techniques that allow machines to simulate human-like intelligence."
+        android:textSize="16sp"
+        tools:ignore="HardcodedText,VisualLintLongText" />
+    <TextView
+        android:id="@+id/interest_description3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Designing - I started loving web designing when I encountered a passionate instructor. Web designing is the process of creating how a website looks and feels."
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        tools:ignore="HardcodedText,VisualLintLongText" />
+    <TextView
+        android:id="@+id/interest_description4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cybersecurity: Cybersecurity is bascially the practice of protecting computers, networks, and data from bad people who want to steal or damage them"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        tools:ignore="HardcodedText,VisualLintLongText" />
+</LinearLayout>
